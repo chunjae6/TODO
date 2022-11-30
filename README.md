@@ -12,7 +12,7 @@
   = Git URL : https://github.com/chunjae6/TODO.git
  2. Team Project Table 설계 작업 진행
   = DB : Maria DB (Local)
-  = 테이블 명세서 : 파일이름 작성
+  = 테이블 명세서 : 테이블정의서.xlsx
 
 
 
