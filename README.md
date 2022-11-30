@@ -9,7 +9,7 @@
 # 진행사항
  - 11월 30일
  1. Team Project Git 설정 및 셋팅 진행
-  = Git URL : https://github.com/nnmnn1022/chunjae6.git
+  = Git URL : https://github.com/chunjae6/TODO.git
  2. Team Project Table 설계 작업 진행
   = DB : Maria DB (Local)
   = 테이블 명세서 : 파일이름 작성
