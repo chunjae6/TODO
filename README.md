@@ -14,6 +14,15 @@
   = DB : Maria DB (Local)
   = 테이블 명세서 : 테이블정의서.xlsx
 
+ - 12월 5일
+ 1. Spring Boot Project 기본 프로젝트 생성
+  = Boot : 2.7.6, Java = 17, gradle 사용
+ 2. DB 설정
+  = DB 명 및 기본 정보 생성
+  = Table Sql 생성
+ 3. 기획 문서 초안 작성
+  = Todo List 화면 기획 문서 초안 작성
+
 
 
 
