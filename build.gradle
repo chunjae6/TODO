@@ -23,6 +23,11 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// 마리아 DB 연결 bin 
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+	// JAP bin
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 }
 
 tasks.named('test') {
