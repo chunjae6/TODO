@@ -13,21 +13,22 @@ import study.team.todo.service.repository.InfoRepository;
 public class InfoService {
     
     @Autowired
-    InfoRepository repos;
+    InfoRepository _infoRepository;
 
-    public GetResponse GetTodoList(Long todoId) {
-        Info data = repos.findById(todoId).get();
+    public GetResponse GetTodoList(Long id) {
+        Info infoData = _infoRepository.findById(id).get();
 
-        return entityToDto(data);
+        return entityToDto(infoData);
     }
 
-    private GetResponse entityToDto(Info data) {
+    private GetResponse entityToDto(Info infoData) {
         return GetResponse.builder()
-        .title(data.getTitle())
-        .content(data.getContent())
-        .todoYear(data.getTodoyear())
-        .todoMonth(data.getTodomonth())
-        .tododay(data.getTododay()).build();
+        .title(infoData.getTitle())
+        .content(infoData.getContent())
+        .todoYear(infoData.getTodoyear())
+        .todoMonth(infoData.getTodomonth())
+        .tododay(infoData.getTododay())
+        .build();
     }
 
     //Todo조회
