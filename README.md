@@ -31,7 +31,8 @@
   = 폴더 구조 변경
   = Controller, Dto, Service 기본 파일 생성
  4. Front
-  = 
+  = Vue.js 셋팅
+  = Git Branch 생성 후 작업
 
 
 
