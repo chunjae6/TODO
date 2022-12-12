@@ -30,7 +30,7 @@ public class InfoService {
     //Todo 등록
     //Request : 년, 월, 일, 제목, 내용
     //Response : 
-    public String PostTodo(BlogDto dto) {
+    public String PostTodo(long id) {
         // Blog blog = repos.save(dto.toBlog());
         // return BlogDto.fromBlog(blog);
         return "PostTodo(데이터)";
@@ -39,7 +39,7 @@ public class InfoService {
     //Todo 수정
     //Request : 년, 월, 일, 제목, 내용
     //Response : 
-    public String PutTodo(BlogDto dto) {
+    public String PutTodo(long id) {
         // Blog blog = repos.save(dto.toBlog());
         // return BlogDto.fromBlog(blog);
         return "PutTodo(데이터)";
