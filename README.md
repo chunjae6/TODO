@@ -19,9 +19,19 @@
   = Boot : 2.7.6, Java = 17, gradle 사용
  2. DB 설정
   = DB 명 및 기본 정보 생성
-  = Table Sql 생성
+  = Table 생성
  3. 기획 문서 초안 작성
   = Todo List 화면 기획 문서 초안 작성
+
+ - 12월 12일
+ 1. BackEnd, Front 담당자 배정
+ 2. 기획 문서 내용 공유
+  = Todo List 화면 기획 내용 공유
+ 3. BackEnd
+  = 폴더 구조 변경
+  = Controller, Dto, Service 기본 파일 생성
+ 4. Front
+  = 
 
 
 
