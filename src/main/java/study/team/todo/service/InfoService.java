@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
+import study.team.todo.info.dto.GetResponse;
+import study.team.todo.service.entity.Info;
 import study.team.todo.service.repository.InfoRepository;
 
 @Service
@@ -13,9 +15,19 @@ public class InfoService {
     @Autowired
     InfoRepository repos;
 
-    public String GetTodoList() {
-        // return repos.findAll();
-        return "GetTodoList";
+    public GetResponse GetTodoList(Long todoId) {
+        Info data = repos.findById(todoId).get();
+
+        return entityToDto(data);
+    }
+
+    private GetResponse entityToDto(Info data) {
+        return GetResponse.builder()
+        .title(data.getTitle())
+        .content(data.getContent())
+        .todoYear(data.getTodoyear())
+        .todoMonth(data.getTodomonth())
+        .tododay(data.getTododay()).build();
     }
 
     //Todo조회
@@ -57,7 +69,4 @@ public class InfoService {
     // public Blog test() {
     //     return repos.test();
     // }
-
-
-
 }
