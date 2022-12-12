@@ -1,4 +1,4 @@
-package study.team.todo.info.repository;
+package study.team.todo.service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
