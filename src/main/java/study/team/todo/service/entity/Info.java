@@ -1,4 +1,4 @@
-package study.team.todo.info.entity;
+package study.team.todo.service.entity;
 
 import java.time.LocalDateTime;
 
@@ -41,4 +41,5 @@ public class Info {
     @LastModifiedDate
     @Column(name="moddate")
     private LocalDateTime modDate;
+    
 }
